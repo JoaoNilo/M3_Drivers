@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S"/>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <includepath>Inc</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <includepath>Inc</includepath>
+    </language>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F1</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F103C8Tx</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F1</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F103C8Tx</name>
+        <value/>
+      </macro>
+    </language>
+  </section>
+</cdtprojectproperties>
